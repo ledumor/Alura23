@@ -7,7 +7,7 @@ public class Desafio {
         String opcao;
         boolean fimPgm = false;
         String tipoConta = "Corrente";
-        double saldoInicial = 2500.00;
+        double saldoInicial = 15000.00;
         double saldoAtual = saldoInicial;
         double valor;
         String nome = "Luis Eduardo";
@@ -18,7 +18,7 @@ public class Desafio {
                   
                 Nome..........: %s
                 Tipo conta....: %s
-                Saldo inicial.: R$ %f
+                Saldo inicial.: R$ %.2f
                 **********************************
                 """.formatted(nome, tipoConta, saldoInicial) ;
         System.out.println(msginicial);
